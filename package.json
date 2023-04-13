@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-selenium-sample",
+  "version": "1.0.0",
+  "description": "sample app with Cucumber and Selenium written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.0",
+    "@types/cucumber": "^7.0.0",
+    "@types/selenium-webdriver": "^4.1.13",
+    "selenium-webdriver": "^4.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chromedriver": "^112.0.0"
+  }
+}
